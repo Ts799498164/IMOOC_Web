@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; font-family:"微软雅黑"}
+body{ background:rgb(245,245,245)}
+li{ list-style:none;}
+a{ text-decoration:none;}
+.top{ background:url(images/top_bg.jpg) repeat-x; width:100%; height:27px;}
+.top ul{margin-right:200px;}
+.top li{ list-style-image:url(images/arrow.jpg); float:right;margin:0 7px; line-height:25px }
+.top a{ font-size:13px; color:rgb(142,142,142);}
+.top a:hover ,.top a:active{ color:rgb(204,0,0);}
+
+.middle{ width:1000px; margin:0 auto;}
+.middle .logo { height:80px;background-color:#FFF}
+.middle .logo .log_pic{ float:left; margin-left:10px;}
+.middle .logo .log_pho{ float:right; background:url(images/tel.jpg) no-repeat; height:28px; line-height:28px; padding-left:35px; margin-top:35px; margin-right:25px; font-size:12px; color:rgb(142,142,142); font-weight:normal;}
+.middle .logo .log_pho span{ font-size:22px; color:rgb(204,0,0);}
+
+.title{ height:40px; overflow:hidden; background-color:rgb(117,108,103); border-radius:5px; }
+.title .title_left li { float:left; width:85px; line-height:40px; text-align:center; margin-left:10px;}
+.title .title_left a { color:#FFF}
+.title .title_left a:hover, .title .title_left a:active{ color:#FF0}
+.title .title_right .search{ line-height:28px; float:right; width:198px; margin:5px 100px 10px 0; border:none; background:url(images/search.jpg) no-repeat right center; background-color:#FFF; padding-right:30px; }
+#picture{ margin-top:5px;}
+
+.middle .body_left{ width:350px; float:left; margin-top:5px; border:1px solid #ccc; padding-bottom:10px; margin-right:5px;background:#FFF}
+h4{ height:40px; line-height:40px; color:rgb(141,111,102); font-size:13px; padding-left:20px; display:block;background:url(images/more.jpg) no-repeat right center;border: 1px solid #CCC}
+.middle .body_left .zhong img{ float:left; display:block; margin:10px 5px 0 5px;}
+.middle .body_left .zhong .text{ float:left; padding-top:10px; line-height:25px;}
+.middle .body_left .zhong .text a{ color:rgb(204,0,0);}
+p{ font-size:14px;}
+.middle .body_left .zhong .text i{ font-size:12px; color:rgb(204,0,0);}
+.middle .body_left .xia{ clear:both; padding-left:15px;}
+.middle .body_left .xia li{ list-style-image:url(images/list.jpg); border-bottom:1px dotted #ccc; height:25px; line-height:25px; } 
+.middle .body_left .xia a{ font-size:12px; color:#000; font-weight:bold;}
+.middle .body_left .xia a:hover,.middle .body_left .xia a:active{color:rgb(204,0,0);}
+.middle .body_left .xia i{ font-size:10px; color:rgb(142,142,142); float:right}
+
+.middle .body_middle{ width:420px; float:left; border:1px solid #ccc; padding-bottom:10px;margin-top:5px; margin-right:5px; background:#FFF}
+.middle .body_middle .zhong img{ float:left; display:block; margin:10px 5px 0 5px;}
+.middle .body_middle .zhong .text{ padding-top:10px; line-height:20px;}
+.middle .body_middle .zhong .text a{color:rgb(204,0,0); }
+.middle .body_middle .zhong .text p{ font-size:12px;}
+.middle .body_middle  .xia{ clear:both; padding-left:10px;}
+.middle .body_middle  .xia  li{  font-size:12px; width:85px; float:left; background: url(images/product_type_bg.jpg) no-repeat center; line-height:25px; text-align:center; margin:35px auto; padding-left:10px;}
+
+
+.middle .body_right{ width:214px; float:right;border:1px solid #ccc; padding-bottom:5px;margin-top:5px; background:#FFF}
+.middle .body_right .video{ padding:6px;}
+.ad{ width:207px; border:1px solid #ccc; float:right; margin:5px 7px 5px 0;}
+
+
+.boot{  clear:both;width:100%; background-color:rgb(232,232,232); color:rgb(153,153,153); height:150px; padding-left:180px; padding-top:10px; }
+dl{ float:left; width:200px; text-align:center; background:url(images/line.png) no-repeat right center  }
+.dl1{ background:url(images/line.png) no-repeat left center}
+dt{ font-size:20px; padding-bottom:5px;}
+dd{ font-size:14px; line-height:30px;}
+.

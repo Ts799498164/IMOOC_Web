@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>慕课网</title>
+    <link type="text/css" href="doexe.css" rel="stylesheet" />
+    <script src="js/setHomeSetFav.js" type="text/javascript" charset="gb2312"></script>
+    <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+    <script src="js/mf-pattern/mF_YSlider.js"></script>
+    <link href="js/mf-pattern/mF_YSlider.css" />
+    <script>
+    myFocus.set({
+        id: 'picture',
+        width: 1000,
+        height: 300
+    });
+    </script>
+</head>
+
+<body>
+    <div class="top">
+        <ul>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#" onclick="AddFavorite(window.location, document.title)">加入收藏</a></li>
+            <li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+        </ul>
+    </div>
+    <!--顶部top结束-->
+    <div class="middle">
+        <div class="logo">
+            <div class="log_pic">
+                <img src="images/logo.jpg" />
+            </div>
+            <div class="log_pho">24小时服务热线：<span>123-456-7890</span></div>
+        </div>
+        <!--logo结束-->
+        <div class="title">
+            <div class="title_left">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">关于慕课</a></li>
+                    <li><a href="#">新闻动态</a></li>
+                    <li><a href="#">课程中心</a></li>
+                    <li><a href="#">在线课程</a></li>
+                    <li><a href="#">人才招聘</a></li>
+                </ul>
+            </div>
+            <div class="title_right">
+                <form action="#">
+                    <input type="text" class="search" />
+                </form>
+            </div>
+        </div>
+        <!--大标题栏结束-->
+        <div id="picture">
+            <div class="loading"><img src="images/loading.gif" alt="正在加载中，请稍等" /></div>
+            <div class="pic">
+                <ul>
+                    <li><img src="images/ad2.jpg" /></li>
+                    <li> <img src="images/ad3.jpg" /></li>
+                    <li><img src="images/ad4.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+        <!--焦点图片结束  -->
+        <div class="body_left">
+            <h4>新闻中心</h4>
+            <div class="zhong">
+                <img src="images/news.jpg" />
+                <div class="text">
+                    <h5><a href="#">520 慕女神喊你来表白！</a></h5>
+                    <p>活动时间：5月20日---5月25日
+                        <br />获奖公布时间：5月26日
+                        <br /><a href="#">Learn More&gt;&gt; </a></p>
+                </div>
+            </div>
+            <div class="xia">
+                <ul>
+                    <li><a href="#">【慕课访谈 用户篇】“有为屌丝”在路上</a><i>2016-06-01</i></li>
+                    <li><a href="#">【有奖活动】给父亲的三行书信</a><i>2016-06-01</i></li>
+                    <li><a href="#">《程序猿请嗮出你的童年》活动获奖公告</a><i>2016-06-01</i></li>
+                    <li><a href="#">【慕课访谈】破茧成蝶-美女程序员的蜕变史</a><i>2016-06-01</i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="body_middle">
+            <h4>课程中心</h4>
+            <div class="zhong">
+                <img src="images/css.jpg" />
+                <div class="text">
+                    <h5><a href="#">CSS圆角进化论</a></h5>
+                    <p>CSS圆角的实现，经历了三大发展阶段：背景图片方式、CSS2.0+HTML标签模拟、CSS3.0圆角属性）。本案例详细讲解每一种的实现方式，并对实现的优缺点进行对比分析。</p>
+                </div>
+            </div>
+            <div class="xia">
+                <ul>
+                    <li>PHP开发</li>
+                    <li>前端开发</li>
+                    <li>JAVA开发</li>
+                    <li>Android开发</li>
+                </ul>
+            </div>
+        </div>
+        <div class="body_right">
+            <h4>媒体聚焦</h4>
+            <div class="video">
+                <embed src="http://player.youku.com/player.php/sid/XNjkzMDE5MTUy/v.swf" allowFullScreen="true" quality="high" width="200" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            </div>
+        </div>
+        <div class="ad">
+            <img src="images/app.jpg" />
+        </div>
+    </div>
+    <!--中间middle结束-->
+    <div class="boot">
+        <dl class="dl1">
+            <dt>关于</dt>
+            <dd>品牌故事</dd>
+            <dd>联系我们</dd>
+            <dd>加入我们</dd>
+            <dd>版权声明</dd>
+        </dl>
+        <dl>
+            <dt>课程</dt>
+            <dd>PHP开发</dd>
+            <dd>前端开发</dd>
+            <dd>JAVA开发</dd>
+            <dd>Android开发</dd>
+        </dl>
+        <dl>
+            <dt>关注</dt>
+            <dd>新浪微博</dd>
+            <dd>腾讯微博</dd>
+            <dd>企业微博</dd>
+            <dd>QQ空间</dd>
+        </dl>
+        <dl>
+            <dt>留言</dt>
+            <dd>意见反馈</dd>
+            <dd>问题留言</dd>
+            <dd>媒体联络</dd>
+            <dd>在线服务</dd>
+        </dl>
+        <dl>
+            <dt><img src="images/weixin.png" />微信关注</dt>
+            <dd><img src="images/qrcode.jpg" /></dd>
+        </dl>
+    </div>
+    <!--底部boot结束-->
+</body>
+
+</html>
